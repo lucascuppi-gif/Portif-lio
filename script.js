@@ -27,7 +27,6 @@ window.addEventListener("scroll", () => {
 });
 
 const links = document.querySelectorAll("ul a[href^='#']");
-console.log(links);
 
 links.forEach((link) => {
   link.addEventListener("click", (e) => {
