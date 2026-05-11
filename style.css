@@ -88,10 +88,10 @@ header a {
 #titulo::after {
   content: "|";
   display: inline-block;
-  margin-left: 20px;
   font-size: 3rem;
   animation: digitando 1s infinite;
   opacity: 1;
+  padding: 0 8px;
 }
 
 .projetos h2 {
